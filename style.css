@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 body {
-  background: #2f2e2f;
+  background: #333;
   color: #fff;
   font-family: "Poppins", sans-serif;
   /* overflow: hidden; */
@@ -23,6 +23,7 @@ h2 {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  transition: 0.3s;
 }
 
 .col li {
@@ -59,6 +60,11 @@ h2 {
   background: #46a051;
   color: #fff;
   border-radius: 3px;
+}
+
+.col:hover,
+.best {
+  box-shadow: 0 10px 15px 0 #000;
 }
 
 @media (max-width: 780px) {
